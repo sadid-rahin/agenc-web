@@ -1,0 +1,223 @@
+/* All style css start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    gap: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+section{
+    margin-top: 150px;
+}
+
+/* All style css end */
+/* nav bar section start  */
+.button_part {
+    border-radius: 10px;
+    background: rgb(95, 41, 243);
+    display: inline-block;
+
+
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.nav-link:hover {
+    color: rgb(95, 41, 243);
+
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* nav bar section end  */
+/* Banner section css start  */
+.banner_part {
+    background: url(../imgae/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bannerOverlay {
+    padding-top: 330px;
+    padding-bottom: 170px;
+    background-color: rgba(0, 0, 0, 0.62);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.bannerTitle h1 {
+
+    font-weight: 1400px;
+    font-size: 75px;
+    padding-bottom: 10px;
+
+}
+
+.bannerButton {
+    border-radius: 10px;
+    background: rgb(95, 41, 243);
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+/* Banner section css start  */
+.containerPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.pointPart{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.containerPart:hover{
+    background: rgb(191, 219, 219);
+    border: 1px solid rgb(106, 77, 244);
+    
+}
+/* card section start  */
+.cardProvider{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.card-text{
+    color: rgb(132, 132, 136);
+}
+.cardProvider h2{
+    font-weight: 1400px;
+    font-size: 45px;
+}
+/* card section END  */
+
+/* Banner section css end */
+/* reviwer part start  */
+.reviewerPart{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.reviewerDetails p{
+    margin-top: -10px;
+    
+}
+.reviewerDetails h5{
+    margin-top: 15px;
+    
+}
+.reviewStar i{
+    color: goldenrod;
+}
+.quoets{
+    color: rgba(105, 77, 244, 0.774);
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+/* reviwer part end  */
+ /* we do part start  */
+ .weDo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+ }
+ #freeQuote{
+    margin-top: 60px;
+    background: rgb(220, 220, 220);
+ }
+ .inputForm{
+    background: rgb(232, 232, 232);
+    padding: 50px;
+    border-radius: 20px;
+    width: 30%;
+    
+ }
+ .inputForm p{
+    padding-top: 20px;
+  }
+  
+   input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 200px;
+}
+.freeButton {
+    border-radius: 20px;
+    background: rgb(95, 41, 243);
+    
+    
+   
+}
+.Btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+
+}
+ /* we do part end  */
+ /* footer part start  */
+ .footerPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 120px;
+ }
+ .footerInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+ }
+ .mainOne{
+    padding-bottom: 20px;
+ }
+ .footerInfo ul, li{
+    padding: 5px;
+ }
+ .footerTitle img{
+    padding-bottom: 30px;
+ }
+ /* footer part end  */
